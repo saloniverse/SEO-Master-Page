@@ -1,0 +1,92 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+
+/* Navbar */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif; 
+    max-width: 1440px;
+    margin: auto;
+    overflow: hidden;
+}
+.container{ 
+    padding-left: 80px;
+}
+.navbar-container{
+    height: 15vh;
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    align-items: center;
+}
+[alt="brand-logo"]{
+    height: 35px;
+    width: 100px;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-left: 15%;
+}
+.list-item{  
+    list-style: none; 
+    width: 90px;
+    padding: 0px 16px;
+    color: grey;
+}
+.list-item:first-child{
+    font-weight: 500;
+    color: black;
+}
+.button-group{
+    position: absolute;
+    right: 80px;
+}
+.nav-button{   
+    background-color: #383CC1;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Banner */
+.banner-container{
+    display: flex;
+    position: relative;
+    /* top:60px; */
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    width: 100%;
+}
+.heading-text{
+    width: 90%;
+    font-size: 60px;
+    font-weight: 600;
+    /* height: 140px; */
+    color:#120E43;
+}
+span{
+    color: #383CC1; 
+}
+.description{
+    color: grey;
+    width: 55%;
+}
+.btn{
+    margin-top: 40px;
+    padding: 21px 55px;
+}
+[alt="illustration"]{
+    height: 630px;
+    width: 875px;   
+}
